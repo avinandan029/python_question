@@ -1,0 +1,24 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/base.css'  %}">
+</head>
+<body>
+<h1 class="cls1">Welcome to NarayanaSoft</h1>
+<header>
+    <ul>
+        <li><a href="/home/">Home</a></li>
+        <li><a href="/contact/">Contact</a></li>
+        <li><a href="/services/">Services</a></li>
+        <li><a href="/feedback/">Feedback</a></li>
+        <li><a href="/gallery/">Gallery</a></li>
+    </ul>
+</header>
+{% block content %}
+{% endblock %}
+<h1 class="cls1">Thank You</h1>
+</body>
+</html>
